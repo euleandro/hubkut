@@ -1,0 +1,116 @@
+:root {
+  --bg: #d9e6f6;
+  --bg-header: #5c9ecf;
+  --bg-home-sections: #ffffff;
+  --text-bio: #2e7bb4;
+  --text-menu: #ffffff;
+  --line-menu: #5292c1;
+  --input-search: #5579a1;
+  --aside-line: #ecf2fa;
+  --text-bio-description: #999;
+  --text-count-infos: #5a5a5a;
+
+  font-size: 70%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  background: var(--bg);
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  padding: 0.4rem;
+  background-color: var(--bg-header);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__content {
+  width: 111rem;
+  display: flex;
+  align-items: center;
+}
+
+.header__login {
+  width: 8.8rem;
+  height: 3.4rem;
+  margin-right: 2.4rem;
+  background: var(--bg-home-sections);
+  border-radius: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__login img {
+  width: 6.8rem;
+  height: 2.5rem;
+}
+
+nav {
+  height: 6.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 11rem);
+}
+
+header ul a {
+  color: var(--text-menu);
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+header ul a:hover {
+  font-weight: 700;
+}
+
+header li {
+  display: flex;
+  justify-content: center;
+}
+
+header li + li::before {
+  content: "";
+  margin-right: 2rem;
+  border-left: 0.25rem solid var(--line-menu);
+}
+
+.header__exit {
+  margin-left: 1.6rem;
+}
+
+.header__exit a {
+  color: var(--text-menu);
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.header__exit a:hover {
+  font-weight: 700;
+}
+
+.header__exit a::before {
+  content: "";
+  margin-right: 2rem;
+  border-left: 0.25rem solid var(--line-menu);
+}
+
