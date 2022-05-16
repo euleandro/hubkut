@@ -27,7 +27,7 @@ As tecnologias utilizadas foram:
 
 O hubkut é uma junção do Orkut e GitHub, com o designer inspirado no Orkut.
 
-Live preview:
+Live preview: https://hubkut-euleandro.vercel.app/
 
 ## 📝 Licença
 
