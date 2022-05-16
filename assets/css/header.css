@@ -114,3 +114,13 @@ header li + li::before {
   border-left: 0.25rem solid var(--line-menu);
 }
 
+.sr__only {
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  border-width: 0;
+  position: absolute;
+  white-space: nowrap;
+  clip: rect(0, 0, 0, 0);
+}
