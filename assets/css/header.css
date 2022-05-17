@@ -124,3 +124,26 @@ header li + li::before {
   white-space: nowrap;
   clip: rect(0, 0, 0, 0);
 }
+
+main {
+  width: 100%;
+  padding-top: 2.4rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.main_profile {
+  width: 111rem;
+  align-items: center;
+  display: flex;
+}
+
+.main_profile__img {
+  height: 54.5rem
+  background: var(--bg-home-sections);
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
